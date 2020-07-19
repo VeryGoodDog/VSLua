@@ -1,0 +1,6 @@
+packages/
+.vs/
+b.sh
+r.sh
+bin/
+obj/
