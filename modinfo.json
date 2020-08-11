@@ -3,5 +3,5 @@
   "name": "VSLua",
   "description" : "A library for using Lua in Vintage Story.",
   "authors": ["VeryGoodDog"],
-  "version": "0.0.0"
+  "version": "0.0.1"
 }
