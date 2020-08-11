@@ -4,15 +4,15 @@ VSLua is a, currently, small library mod that allows you to use Lua in Vintage S
 
 #### Features
 - Easily create Lua states.
-- Easily create functions, one at a time, or in batches.
-- Safe utilization of NLua's `Lua.DoString` method.
+- Create functions from plain strings, and from text GUI elements.
+- A `GuiElementLuaInput` class that streamlines getting user input and updating a Lua state. Currently WIP.
 
 #### Known bugs and issues
 - NLua likes to throw a lot of errors so pretty much everything not implemented by VSLua needs to be in a try catch.
 - She's very fragile please be nice to her.
 
 #### Planned features
-- Arbitrarily using `LuaFunction` objects as delegates.
+- ~~Arbitrarily using `LuaFunction` objects as delegates.~~ This seems to be impossible. MAYBE NOT! :)
 - Saving Lua states with protobuf or something for persistence between sessions.
 
 #### Building

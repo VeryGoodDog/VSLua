@@ -8,7 +8,7 @@ namespace VSLua {
 		public override bool ShouldLoad(EnumAppSide forSide) => true;
 
 		public override void Start(ICoreAPI api) {
-			VSLuaManager.luaFunctionFactory["CoreAPI"] = api;
+			VSLuaManager.defaultLuaFactory["CoreAPI"] = api;
 		}
 	}
 }

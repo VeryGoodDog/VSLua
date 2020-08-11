@@ -1,7 +1,7 @@
 ﻿{
   "type": "code",
   "name": "VSLua",
-  "description" : "",
+  "description" : "A library for using Lua in Vintage Story.",
   "authors": ["VeryGoodDog"],
   "version": "0.0.0"
 }
